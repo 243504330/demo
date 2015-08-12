@@ -1,0 +1,30 @@
+[ 2015-08-07T11:35:46+08:00 ] 127.0.0.1 /product/index.php/Sadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载模块:Sadmin
+
+[ 2015-08-07T11:49:37+08:00 ] 127.0.0.1 /product/index.php/sdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Sdmin
+
+[ 2015-08-07T11:57:42+08:00 ] 127.0.0.1 /product/index.php/assm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+ERR: 无法加载模块:Assm
+
+[ 2015-08-07T12:01:47+08:00 ] 127.0.0.1 /product/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-08-07T12:13:05+08:00 ] 127.0.0.1 /product/index.php/Admin/salon/add/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Admin
+

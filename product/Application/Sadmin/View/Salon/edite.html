@@ -1,0 +1,82 @@
+
+  <form class="form-horizontal" method="post"  enctype="multipart/form-data">
+    <fieldset>
+      <div id="legend" class="">
+        <legend class="">表单名{$data.id}</legend>
+      </div>
+    
+
+    
+
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">嘉宾</label>
+          <div class="controls">
+            <div class="textarea">
+              <textarea placeholder="" type="" class="" name="compere">{$data.compere}</textarea>
+            </div>
+            <p class="help-block"></p>
+          </div>
+        </div>
+
+    
+
+    
+
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">企业</label>
+          <div class="controls">
+            <input type="text" placeholder="placeholder" class="input-xlarge" name="title" value="{$data.title}">
+            <p class="help-block"></p>
+          </div>
+    </div>
+    <div class="control-group">
+
+          <!-- Textarea -->
+          <label class="control-label">嘉宾</label>
+          <div class="controls">
+            <div class="textarea">
+                  <textarea placeholder="{$data.guest}" type="" class="" name="guest">{$data.guest} </textarea>
+            </div>
+          </div>
+     </div>
+
+    
+
+    <div class="control-group">
+          <label class="control-label">图片上传</label>
+
+          <!-- File Upload -->
+          <div class="controls">
+            <input class="input-file" id="fileInput" type="file" name="img">
+          </div>
+    </div>
+
+
+    <div class="control-group">
+          <label class="control-label">图片上传</label>
+
+          <!-- File Upload -->
+          <div class="controls">
+            <input class="input-file" id="fileInput" type="file" name="img2">
+          </div>
+    </div>
+
+ 
+ 
+    <div class="control-group">
+          <label class="control-label">Button</label>
+
+          <!-- Button -->
+          <div class="controls">
+            <button class="btn btn-success">Button</button>
+          </div>
+     </div>
+
+    
+
+    </fieldset>
+  </form>

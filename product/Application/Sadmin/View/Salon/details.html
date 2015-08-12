@@ -1,0 +1,125 @@
+
+  <form class="form-horizontal" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <div id="legend" class="">
+        <legend class="">提取地址</legend>
+       </div>
+    </fieldset>
+
+    <div class="control-group">
+      <div class="controls">
+        <input type="file" placeholder="" class="input-xlarge" name="imgs" >
+      </div>
+    </div>
+
+        <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">标题</label>
+          <div class="controls">
+            <input type="text" placeholder="placeholder" class="input-xlarge" name="title" value="{$data.imgs}">
+            <p class="help-block"></p>
+          </div>
+    </div>
+
+       <div class="control-group">
+          <label class="control-label">Button</label>
+
+          <!-- Button -->
+          <div class="controls">
+            <button class="btn btn-success">Button</button>
+          </div>
+     </div>
+
+
+
+  </form>
+
+
+
+  <form class="form-horizontal" method="post"  enctype="multipart/form-data">
+    <fieldset>
+      <div id="legend" class="">
+        <legend class="">表单名</legend>
+      </div>
+    
+
+    
+
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">id</label>
+          <div class="controls">
+            <input type="text" placeholder="placeholder" class="input-xlarge" name="sid" value="{$arr.id}" readonly="readonly" >
+            <p class="help-block"></p>
+          </div>
+        </div>
+
+    
+
+    
+
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">标题</label>
+          <div class="controls">
+            <input type="text" placeholder="placeholder" class="input-xlarge" name="says" value="{$arr.says}">
+            <p class="help-block"></p>
+          </div>
+    </div>
+    <div class="control-group">
+
+          <!-- Textarea -->
+          <label class="control-label">细节</label>
+          <div class="controls">
+            <div class="textarea">
+                  <textarea placeholder="placeholder" type="" class="" name="details" value="">{$arr.details}</textarea>
+            </div>
+          </div>
+     </div>
+
+    
+
+      <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">图片1</label>
+          <div class="controls">
+            <input type="text" placeholder="750X500的图片" class="input-xlarge" name="bimg1" value="{$arr.bimg1}">
+            <p class="help-block"></p>
+          </div>
+    </div>
+       <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">图片2</label>
+          <div class="controls">
+            <input type="text" placeholder="placeholder" class="input-xlarge" name="bimg2" value="{$arr.bimg2}">
+            <p class="help-block"></p>
+          </div>
+    </div>
+       <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">图片3</label>
+          <div class="controls">
+            <input type="text" placeholder="placeholder" class="input-xlarge" name="bimg3" value="{$arr.bimg3}">
+            <p class="help-block"></p>
+          </div>
+    </div>
+ 
+    <div class="control-group">
+          <label class="control-label">Button</label>
+
+          <!-- Button -->
+          <div class="controls">
+            <button class="btn btn-success">Button</button>
+          </div>
+     </div>
+
+    
+
+    </fieldset>
+  </form>

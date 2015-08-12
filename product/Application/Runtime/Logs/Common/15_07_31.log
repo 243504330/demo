@@ -1,0 +1,217 @@
+[ 2015-07-31T12:10:40+08:00 ] 127.0.0.1 /product/index.php/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:10:40+08:00 ] 127.0.0.1 /product/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:10:40+08:00 ] 127.0.0.1 /product/index.php/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Font-awesome
+
+[ 2015-07-31T12:10:40+08:00 ] 127.0.0.1 /product/index.php/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:10:40+08:00 ] 127.0.0.1 /product/index.php/css/modern-business.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:10:41+08:00 ] 127.0.0.1 /product/index.php/images/qw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Images
+
+
+[ 2015-07-31T12:10:41+08:00 ] 127.0.0.1 /product/index.php/images/title.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/css/modern-business.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Font-awesome
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/images/qw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/images/title.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:25+08:00 ] 127.0.0.1 /product/index.php/images/fish.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:30+08:00 ] 127.0.0.1 /product/index.php/index/pub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Font-awesome
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/css/modern-business.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/images/fish.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/images/qw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:35+08:00 ] 127.0.0.1 /product/index.php/images/title.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:46+08:00 ] 127.0.0.1 /product/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-31T12:14:50+08:00 ] 127.0.0.1 /product/index.php/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:14:50+08:00 ] 127.0.0.1 /product/index.php/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Font-awesome
+
+[ 2015-07-31T12:14:50+08:00 ] 127.0.0.1 /product/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:14:50+08:00 ] 127.0.0.1 /product/index.php/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Js
+
+[ 2015-07-31T12:14:50+08:00 ] 127.0.0.1 /product/index.php/css/modern-business.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Css
+
+[ 2015-07-31T12:14:51+08:00 ] 127.0.0.1 /product/index.php/images/fish.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:51+08:00 ] 127.0.0.1 /product/index.php/images/title.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T12:14:51+08:00 ] 127.0.0.1 /product/index.php/images/qw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Images
+
+[ 2015-07-31T13:12:31+08:00 ] 127.0.0.1 /product/index.php/U('salon/index')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:U('salon
+
+[ 2015-07-31T13:12:43+08:00 ] 127.0.0.1 /product/index.php/salon/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Salon
+
+[ 2015-07-31T13:12:52+08:00 ] 127.0.0.1 /product/index.php/index/pub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Index
+

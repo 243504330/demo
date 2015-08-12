@@ -1,0 +1,47 @@
+
+  <form class="form-horizontal" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <div id="legend" class="">
+        <legend class="">提取地址</legend><small>800X600</small>
+
+       </div>
+    </fieldset>
+
+    <div class="control-group">
+      <div class="controls">
+        <input type="file" placeholder="" class="input-xlarge" name="img" >
+      </div>
+    </div>
+
+    
+
+       <div class="control-group">
+          <label class="control-label">Button</label>
+
+          <!-- Button -->
+          <div class="controls">
+            <button class="btn btn-success">Button</button>
+          </div>
+     </div>
+
+
+  </form>
+
+  <div class="row">
+    <div class="col-lg-12">
+
+      <h2 class="page-header">公司环境
+        <small><a href="{:U('about/index')}" style="color:#BDBDBD">查看更多</a></small>
+      </h2>
+
+    </div>
+    <foreach name="arr" item="v">
+
+    <div class="col-md-4 col-sm-6" style="width:23.3333333333%">
+        <p>{$v.id}</p>
+        <img class="img-responsive img-portfolio img-hover" src="__PUBLIC__/images/{$v.img}" ale="">
+    <a href="#">修改</a><a href="{:U('salon/del',array('id'=>$v['id']))}">/删除</a>
+    </div>
+  </foreach>
+    
+  </div>
