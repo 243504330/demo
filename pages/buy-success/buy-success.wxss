@@ -1,0 +1,33 @@
+.che{
+  font-size:28rpx;
+  color:#aaaaaa;
+  padding-top:10rpx;
+  padding-bottom: 60rpx;
+}
+.bf{
+  color:#333333;
+  font-size:48rpx;
+  padding-top:20rpx;
+  font-weight: 600;
+}
+button{
+  background: #FF7171;
+  box-shadow: 0 6px 10px 0 rgba(255,113,113,0.30);
+  color:#ffffff;
+  border:none;
+}
+button::after {
+  border: none;
+}
+button::after {
+  border: none;
+}
+.yao{
+  background: #11CC8F;box-shadow: 0 3px 5px 0 rgba(17,204,143,0.30);
+}
+button::after {
+  border: none;
+}
+.other-button-hover{
+  color:#ffffff;background:#ffffff;border:none;color:#000000;
+}

@@ -1,0 +1,112 @@
+<scroll-view scroll-y bindscroll="scrollEvent" style='width:100%;height:{{windowHeight}}px;'>
+<view style='position:fixed;background:#ffffff;z-index:999;width:100%;display:{{menusFlag}}' animation="{{animationData}}">
+<view class="timesDe" style='display:flex;color:#8989ad;font-size:26rpx;text-align:center;padding-bottom:20rpx;padding-top:20rpx;'>
+  <view style='width:25%;'>
+    时间段
+  </view>
+  <view style='width:25%;'>
+    可订场
+  </view>
+  <view style='width:25%;'>
+    可拼场
+  </view>
+  <view style='width:25%;'>
+    已预订
+  </view>
+</view>
+</view>
+<view>
+  <image mode="widthFix" style='width:100%;' src="{{pub_url}}{{info.stadium.image}}"></image>
+</view>
+<view style='position:fixed;height:70px;width:100%;bottom:0;background:#ffffff;z-index:999;background:0 -3px 8px 0 rgba(136,136,136,0.10);'>
+  <view style='display:flex;color:#8989a0;font-size:24rpx;text-align:center;padding-top:30rpx;'>
+    <view style='width:33.333%;position:relative;'>
+      <span style="width:24rpx;height:24rpx;background:#11CC8F;position:absolute;top:0;bottom:0;margin:auto;border-radius:4rpx;"></span>
+      <span style="padding-left:30rpx;">可预订</span>
+    </view>
+    <view style='width:33.333%;position:relative;'>
+      <span style="width:24rpx;height:24rpx;background:#FF9933;position:absolute;top:0;bottom:0;margin:auto;border-radius:4rpx;"></span>
+      <span style="padding-left:30rpx;">可拼场</span>
+    </view>
+    <view style='width:33.333%;position:relative;'>
+      <span style="width:24rpx;height:24rpx;background:#D7DAE1;position:absolute;top:0;bottom:0;margin:auto;border-radius:4rpx;"></span>
+      <span style="padding-left:30rpx;">不可选</span>
+    </view>
+  </view>
+  <view style='font-size: 26rpx;color: #393945;font-weight:600;padding-top:20rpx;text-align:center;'>
+    *请选择日期后挑选符合自己需求的场次
+  </view>
+</view>
+<view style='font-size:40rpx;color:#ffffff;padding-left:30rpx;position:absolute;margin-top:-100rpx;font-weight:600;'>
+  {{info.stadium.name}}
+</view>
+<view style='display:flex;height:100rpx;padding-top:20rpx;padding-bottom:20rpx;'>
+  <view style='width:80%;position:relative;padding-left:30rpx;'>
+    <image style='width:50rpx;height:50rpx;position:absolute;top:0;bottom:0;margin:auto;' src="/img/point.png"></image>
+    <view style="vertical-align:middle;color:#393945;font-size:28rpx;padding-left:60rpx;padding-right:30rpx;display:table-cell;height:50px;">
+      {{info.stadium.address}}
+    </view>
+  </view>
+  <view style='width:20%;position:relative;border-left:1px solid #f2f2f2;margin-top:15rpx;margin-bottom:15rpx;'>
+    <image style='width:44rpx;height:44rpx;position:absolute;top:0;bottom:0;margin:auto;left:0;right:0;' src="/img/phone.png"></image>
+  </view>
+</view>
+<scroll-view scroll-x="{{scroll}}" class='scroll_box' style='border-top:1px solid #f2f2f2;'>
+  <view style='width:10rpx;'></view>
+  <view wx:for="{{arrs}}" wx:for-item="item"  wx:for-index="idx" id="{{idx}}" data-time="{{item.date}}" data-week="{{item.week}}" bindtap='chose' class="{{idx == choseId ? 'is-chose' : 'un-chose'}}" style='margin-left:{{idx == 0 ? 20: 0}}rpx;'>
+    <view class="{{idx == choseId ? '' : 'un-font'}}">周{{item.week}}</view>
+    <view class="{{idx == choseId ? '' : 'un-d-font'}}">
+      <span wx:if="{{idx == 0}}">明天</span>
+      <span wx:else>{{item.day}}</span>
+    </view>
+  </view>
+</scroll-view>
+<view id="timesDe" class="timesDe" style='display:flex;color:#8989ad;font-size:26rpx;text-align:center;padding-bottom:40rpx;padding-top:10rpx;'>
+  <view style='width:25%;'>
+    时间段
+  </view>
+  <view style='width:25%;'>
+    可订场
+  </view>
+  <view style='width:25%;'>
+    可拼场
+  </view>
+  <view style='width:25%;'>
+    已预订
+  </view>
+</view>
+<view wx:for="{{arrs}}" wx:for-item="item"  wx:for-index="idx" class='t-box'>
+  <view class='t-box-1'>
+    <view>
+      <view style='color:#393945;'>
+        {{item.time}}
+      </view>
+      <view style='font-size:22rpx;color:#ff7171;padding-top:10rpx;'>
+        ￥{{item.price}}
+      </view>
+    </view>
+  </view>
+  <view class='t-box-2' bindtap='goYuding' id="{{idx}}">
+    <view>
+      <span class="t-box-yuding">预定</span>
+      <view class='t-box-wenzi'>
+        剩余:{{item.canReserve}}
+      </view>
+    </view>
+  </view>
+  <view class='t-box-3' bindtap='goGroups'>
+    <view>
+      <span class="t-box-join">加入</span>
+      <view class='t-box-wenzi'>
+        剩余:{{item.canJoin}}
+      </view>
+    </view>
+  </view>
+  <view class='t-box-4'>
+    <view class='t-box-empty'>{{item.soldQuantity}}</view>
+  </view>
+</view>
+<view style='margin-top:140rpx;color:#ffffff;width:100%;height:1px;'>
+1
+</view>
+</scroll-view>

@@ -1,0 +1,14 @@
+button{
+  background: #02C160;
+  color:#ffffff;
+  border:none;
+}
+button::after {
+  border: none;
+}
+.button-hover{
+  color:rgba(255, 255, 255, 0.8);
+  background-color:rgba(0, 0, 0, 0);
+  border:none;
+  color:#000000;
+}

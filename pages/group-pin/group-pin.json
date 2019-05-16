@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "拼场",
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#262634",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f9f9f9",
+  "backgroundTextStyle": "dark",
+  "disableScroll": true
+}

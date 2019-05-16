@@ -1,0 +1,158 @@
+<view style='position:absolute;width:100%;height:200px;background:linear-gradient(#262634, #ffffff);z-index:-1;margin-top:-20px;'>
+  
+</view>
+<view style='display:flex;margin-left:10rpx;margin-right:10rpx;margin-top:18rpx;height:40px;'>
+  <view bindtap='baoClick' style='width:50%;position:relative;'>
+    <view style='position:absolute;width:100%;z-index:2222;display:{{baochang}};'>
+      <view style='width:100%;z-index:2222;height:0px;border-width:0 10px 40px 0px;border-style:none solid solid;border-color:transparent transparent #ffffff;border-top-right-radius:20px;border-top-left-radius:10px;'>
+        <view style='font-size:14px;color:#393945;font-weight:600;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;width:200rpx;height:30rpx;text-align:center;z-index:2222;'>
+          包场预定
+        </view>   
+      </view>
+    </view>
+    <view style='font-size:14px;color:#393945;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;width:200rpx;height:30rpx;text-align:center;background:rgba(255, 255, 255, 0);z-index:2;'>
+        包场预定
+    </view>
+    <view style='position:absolute;width:95%;height:88%;background:rgb(221, 221, 224);border-top-left-radius:16rpx;bottom:0;text-align:center;z-index:1;margin-left:5%;'>
+    </view>
+  </view>
+  <view bindtap='pinClick' style='width:50%;position:relative;'>
+    <view style='position:absolute;width:100%;z-index:2222;margin-right:10px;right:0;display:{{pinchang}};'>
+      <view style='width:100%;height:0px;border-width:0 0px 40px 10px;border-style:none solid solid;border-color:transparent transparent #ffffff;border-top-right-radius:10px;border-top-left-radius:20px;'>
+        <view style='font-size:14px;color:#393945;font-weight:600;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;width:200rpx;height:30rpx;text-align:center;'>
+          拼场预定
+        </view>   
+      </view>
+    </view>
+
+    <view style='font-size:14px;color:#393945;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;width:200rpx;height:30rpx;text-align:center;background:rgba(255, 255, 255, 0);z-index:2;'>
+        拼场预定
+    </view>
+    <view style='position:absolute;width:95%;height:88%;background:rgb(221, 221, 224);border-top-right-radius:16rpx;bottom:0;text-align:center;z-index:1;'>
+      
+    </view>
+  </view>
+</view>
+<view class='bp-class {{ctClass}}'>
+  <view style='padding-left:30rpx;padding-right:30rpx;padding-top:40rpx;'>
+    <span style="font-size:36rpx;padding-right:20rpx;color:#393945;font-weight:600;">
+      订单详情
+    </span>
+  </view>
+
+  <view style='margin-left:30rpx;margin-right:30rpx;font-size:28rpx;margin-top:60rpx;'>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          场地
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.name}}
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          地址
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.address}}
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          预付时间
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.day}}周{{info.week}}<span style="padding-left:10rpx;">{{info.time}}</span>
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          预付订场费
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style='color:#ff7171;'>
+          ￥{{info.price}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+  <view wx:if="{{type == 'bao'}}" bindtap='friendClick' style='display:flex;margin-left:10rpx;margin-right:10rpx;background:#ffffff;border-bottom-left-radius: 16rpx;border-bottom-right-radius: 16rpx;padding:46rpx 30rpx;font-size:28rpx;border-radius:16rpx;margin-bottom:30rpx;'>
+    <view style='width:50%;position:relative;'>
+      <view style='color:#393945;'>免费打球</view>
+    </view>
+    <view style='width:50%;position:relative;'>
+        <view style='color:#8989a0;font-size:13px;text-align:right;padding-right:15px;position:relative'>
+          <span style="vertical-align:middle;">{{isFriend}}</span>
+            <image style='width:12rpx;height:20rpx;position:absolute;right:15px;top:0;bottom:0;margin:auto;right:0;' src="/img/btn_right.png"></image>
+        </view>
+    </view>
+  </view>
+  <view style='margin-left:30rpx;margin-right:30rpx;color:#8989a0;font-size:24rpx;line-height:1.8;margin-bottom:30rpx;'>
+    <span wx:if="{{type == 'bao'}}">请朋友免费打球，仅通过您的邀请才能加入球队，请路人球友免费打球，路人球友可通过组队信息免费加入一起打球。</span>
+    <span wx:else>拼场预定虚先交纳整场费用，组队成功费用按照队伍实际人数平均分摊，订单结束后一个工作日会原路退还多余费用；组队失败（不足6人），则退还所有费用。</span>
+  </view>
+  <view wx:if="{{isFriend == '朋友' || type == 'pin'}}" style='padding-top:40rpx;padding-bottom:40rpx;margin-left:10rpx;margin-right:10rpx;background:#ffffff;'>
+    <view style='display:flex;padding-bottom:40rpx;padding-left:30rpx;padding-right:30rpx;'>
+      <view style='width:50%;font-size:36rpx;color:#393945;font-weight:600;'>
+        球员数量设置
+      </view>
+      <view style='width:50%;'>
+        <view style='font-size:12px;color:#393945;width:110rpx;height:50rpx;border:1px solid #8989A0;border-radius:4rpx;position:relative;float:right;'>
+          <span style="line-height:50rpx;padding-left:14rpx;">12人</span>
+          <image style='width:20rpx;height:14rpx;position:absolute;top:0;bottom:0;margin:auto;right:14rpx;' src="/img/down.png"></image>
+        </view>
+      </view>
+    </view>
+    <view style='display:flex;padding-left:30rpx;padding-right:30rpx;position:relative;'>
+      <view style='position:absolute;width:1px;height:80%;background:#f2f2f2;left:0;right:0;margin:auto;top:4%;'></view>
+      <view style='width:50%;'>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+      </view>
+      <view style='width:50%;text-align:right;'>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+      </view>
+    </view>
+    <view style='display:flex;padding-left:30rpx;padding-right:30rpx;position:relative;'>
+      <view style='position:absolute;width:1px;height:80%;background:#f2f2f2;left:0;right:0;margin:auto;top:4%;'></view>
+      <view style='width:50%;'>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+      </view>
+      <view style='width:50%;text-align:right;'>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+        <image class='pimg' src="/img/a.png"></image>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{isFriend == '朋友' || type == 'pin'}}" style='margin-left:30rpx;margin-right:30rpx;color:#8989a0;font-size:24rpx;line-height:1.8;margin-bottom:30rpx;margin-top:20rpx;'>
+    球队数量达到6人视为组队成功，锁位功能可帮助朋友预留位置，如无指定队友请勿使用锁位功能。
+  </view>
+<view style='margin-top:80rpx;'>
+  <view style=''>
+    <button bindtap='wxPay' class="yao" style='width:75%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;' hover-class="other-button-hover">微信支付</button>
+  </view>
+</view>
+<view style='color:#f9f9f9;padding-top:40rpx;'>
+1
+</view>

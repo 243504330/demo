@@ -1,0 +1,15 @@
+page{
+  background: #f9f9f9;
+}
+.pt-box{
+  display:flex;text-align:center;
+}
+.w-33{
+  width:33.33%;
+}
+.pt-img{
+  width:36rpx;height:36rpx;
+}
+.pt-font{
+  font-size:26rpx;color:#393945;padding-top:10rpx;
+}

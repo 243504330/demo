@@ -1,0 +1,76 @@
+<view style='position:fixed;width:100%;height:200px;background:linear-gradient(#262634, #ffffff);z-index:-1;margin-top:-20px;'>
+  
+</view>
+<view style='position:fixed;background:rgba(0,0,0,0.50);z-index:999;width:100%;height:100%;display:none;'>
+  <view style='position:absolute;width:270rpx;height:260rpx;top:0;bottom:0;left:0;right:0;margin:auto;background:#ffffff;border-radius:8rpx;text-align:center;'>
+    <image style='width:90rpx;height:90rpx;padding-top:20%;' src="/img/a.png"></image>
+    <view style='font-size:32rpx;color:#333333;padding-top:10rpx;'>
+      加入成功
+    </view>
+  </view>
+</view>
+<view style='margin-left:10rpx;margin-right:10rpx;border-radius:16rpx;background:#ffffff;margin-top:18rpx;'>
+  <view style='padding-left:30rpx;padding-right:30rpx;padding-top:40rpx;padding-bottom:40rpx;'>
+
+    <span style="font-size:36rpx;padding-right:20rpx;font-weight:600;">
+      订单详情
+    </span>
+  </view>
+
+  <view style='margin-left:30rpx;margin-right:30rpx;font-size:28rpx;margin-top:30rpx;'>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          场地
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.stadiumPlace}}
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          地址
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.address}}
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          预定时间
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.time}}
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          预付拼场费
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style='color:#ff7171;'>
+          {{info.priceDes}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view style='color:#8989A0;font-size:24rpx;margin-left:40rpx;margin-right:40rpx;line-height:1.6;'>
+订单结束后按照该订单实际支付人数进行平摊场费，从预付拼场费中扣除平摊场费后，多余场费原路退还。
+</view>
+<view style='margin-bottom:40rpx;margin-top:80rpx;'>
+  <button bindtap='wxPay' class="yao" style='width:65%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;' hover-class="other-button-hover">微信支付</button>
+</view>

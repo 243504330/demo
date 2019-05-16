@@ -1,0 +1,14 @@
+
+      <view style='text-align:center;'>
+          <view style='padding-top:112rpx;'>
+            <image style='width:170rpx;height:170rpx;' src="/img/success.png"></image>
+          </view>
+          <view class="bf">
+            {{title}}
+          </view>
+          <view class="che">
+            {{name}}
+          </view>
+          <button  wx:if="{{ptBtn == true}}" bindtap='wxPay' class="yao" style='width:75%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;' hover-class="other-button-hover">微信支付</button>
+         <button  wx:if="{{back == true}}" bindtap='wxPay' style='width:75%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;' hover-class="other-button-hover">微信支付</button>
+      </view>

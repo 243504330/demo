@@ -1,0 +1,53 @@
+page{
+}
+.scroll_box{
+  width: 100%;
+  height: 160rpx;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
+  padding-top:10rpx;
+}
+.item_list{
+height: auto;
+display: inline-block;
+}
+.is-chose{
+  font-size:28rpx;padding:26rpx 18rpx;background:#ff7171;color:#ffffff;box-shadow:0 3px 5px 0 rgba(255,113,113,0.30);border-radius:6rpx;margin-right:20rpx;height: auto;display: inline-block;text-align:center;
+}
+.un-chose{
+  font-size:28rpx;padding:26rpx 18rpx;border-radius:6rpx;margin-right:20rpx;text-align:center;height: auto;display: inline-block;
+}
+.un-font{
+  color:#8989a0;
+}
+.un-d-font{
+  color:#393945;padding-top:4rpx;
+}
+.t-box{
+  display:flex;color:#8989ad;font-size:26rpx;text-align:center;font-size:26rpx;border-bottom:1px solid #f6f6f6;
+}
+.t-box-1{
+  width:25%;padding:30rpx 0rpx;
+}
+.t-box-2{
+  width:25%;padding:30rpx 0rpx;border-left:1px solid #f6f6f6;
+}
+.t-box-3{
+  width:25%;padding:30rpx 0rpx;border-left:1px solid #f6f6f6;border-right:1px solid #f6f6f6;
+}
+.t-box-4{
+  width:25%;padding:30rpx 0rpx;background:#edeff4;position:relative;
+}
+.t-box-yuding{
+  border:1px solid #11cc8f;padding:4rpx 30rpx;border-radius:100rpx;color:#11cc8f;
+}
+.t-box-wenzi{
+  padding-top:10rpx;font-size:22rpx;
+}
+.t-box-empty{
+  position:absolute;top:0;bottom:0;margin:auto;width:20rpx;height:42rpx;left:0;right:0;
+}
+.t-box-join{
+  border:1px solid #ff9933;padding:4rpx 30rpx;border-radius:100rpx;color:#ff9933;
+}

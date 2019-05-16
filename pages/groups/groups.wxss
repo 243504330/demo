@@ -1,0 +1,13 @@
+page{
+  background: #f9f9f9;
+}
+.menu{
+  float:left;width:30.33%;background:#ff7171;color:#ffffff;margin-right:3%;text-align:center;border-radius:100rpx;line-height:54rpx;margin-bottom:30rpx;
+}
+.menu-def{
+  float:left;width:30.33%;margin-right:3%;text-align:center;border-radius:100rpx;line-height:54rpx;margin-bottom:30rpx;
+background:#eef0f5;color:#8c8ca2;
+}
+.pt-font{
+  font-size:32rpx;color:#393945;font-weight: 600;
+}

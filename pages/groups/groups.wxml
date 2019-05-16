@@ -1,0 +1,37 @@
+<view style='' animation="{{animationBg}}">
+  <view wx:for="{{list}}" style=''>
+    <view style='background:#ffffff;border-radius:16rpx;box-shadow:0 5px 10px 0 rgba(0,0,0,0.10);padding:40rpx  30rpx;margin-top:30rpx;margin-left:30rpx;margin-right:30rpx;'>
+      <view style=''>
+        <view style='display:flex'>
+          <view class="pt-font" style='width:80%;'>
+            4月14日17：00 - 19：00<span style="font-size:24rpx;background:#11cc8f;color:#ffffff;border-radius:6rpx;padding-left:10rpx;padding-right:10rpx;margin-left:20rpx;">包场</span>
+          </view>
+          <view style='width:20%;text-align:right;'>
+            <span style="font-size:32rpx;font-weight:600;">组队成功</span>
+          </view>
+        </view>
+                <view style='position:relative;margin-bottom:30rpx;'>
+              <image style='width:32rpx;height:32rpx;position:absolute;top:0;bottom:0;margin:auto;left:-4rpx;padding-top:8rpx;' src="/img/point.png"></image>
+              <span style="color:#8989A0;font-size:26rpx;padding-left:36rpx;">深圳市南山区南山地铁C口出门…</span> 
+            </view>
+                      <view style='padding-top:20rpx;position:relative;'>
+                <view style='display:flex;'>
+                  <view style='width:60%;'>
+                    <image style='width:70rpx;height:70rpx;border-radius:100rpx;float:left;border:3px solid rgba(255,255,255,0.50);' src="/img/bg.png"></image>
+                <image style='width:70rpx;height:70rpx;border-radius:100rpx;float:left;margin-left:-20rpx;border:3px solid rgba(255,255,255,0.50);' src="/img/bg.png"></image>
+                  </view>
+                  <view style='width:40%;font-size:26rpx;color:#5b5b6e;text-align:right;'>
+                    <view>
+                      <image style='width:20rpx;height:20rpx;' src="/img/a.png"></image> 2
+                    </view>
+                    <view>
+                    已加入 6/18
+                    </view>
+                  </view>
+                </view>
+                
+              </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,287 @@
+
+    <view class='tou' style=''>
+      <view id="all" bindtap='chose' style='width:20%;position:relative;'>
+        <span wx:if="{{type == 'all'}}" style="color:#ff7171;">
+          全部
+          <span class="act-btn"></span>
+        </span>
+        <span wx:else class="def-btn">全部</span>
+      </view>
+      <view id="pin" bindtap='chose' style='width:20%;position:relative;'>
+        <span wx:if="{{type == 'pin'}}" >拼场中
+           <span class="act-btn"></span>
+        </span>
+        <span wx:else class="def-btn">拼场中</span>
+      </view>
+      <view id="success" bindtap='chose' style='width:20%;position:relative;'>
+        <span wx:if="{{type == 'success'}}">已成功<span class="act-btn"></span></span>
+        <span wx:else class="def-btn">已成功</span>
+      </view>
+      <view id="fail" bindtap='chose' style='width:20%;position:relative;'>
+        <span wx:if="{{type == 'fail'}}" >已失败<span class="act-btn"></span></span>
+        <span wx:else class="def-btn">已失败</span>
+      </view>
+      <view id="ok" bindtap='chose' style='width:20%;position:relative;'>
+        <span wx:if="{{type == 'ok'}}" >已完成<span class="act-btn"></span></span>
+        <span wx:else class="def-btn">已完成</span>
+      </view>
+</view>
+<swiper current="{{currentTab}}" bindchange="bindOrder" style='height:{{windowHeight}}px;width:100%;'>
+  <swiper-item>
+    <scroll-view bindscrolltoupper="upper" scroll-y style='height:{{windowHeight}}px;width:100%;margin-top:84rpx;'>
+      <view style=''>
+        <view wx:for="{{list}}" style=''>
+          <view class='wBox'>
+            <view style=''>
+              <view style='display:flex'>
+              <view class="pt-font" style='width:80%;'>
+                4月14日 17：00 - 19：00
+              </view>
+              <view style='width:20%;text-align:right;'>
+                <span class="smBq">包场</span>
+              </view>
+              </view>
+                <view style='position:relative;margin-bottom:30rpx;'>
+                    <image class='b-img' src="/img/point.png"></image>
+                    <span class="b-font">深圳市南山区南山地铁C口出门…</span> 
+                  </view>
+                            <view style='padding-top:20rpx;position:relative;'>
+                      <view style='display:flex;'>
+                        <view style='width:60%;'>
+                          <image class='t-img' src="/img/bg.png"></image>
+                      <image class='l-img' src="/img/bg.png"></image>
+                        </view>
+                        <view class='q-x'>
+                          <view>
+                            <image class='lock' src="/img/peo_lock.png"></image> 2
+                          </view>
+                          <view>
+                          <image class='peo' src="/img/peo.png"></image> 6/18
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+            </view>
+                <view class='zt'>
+            <view style='width:50%;'>
+              <view class='z-state'>状态:进行中</view>
+            </view>
+            <view class='z-price'>
+              ￥120
+            </view>
+          </view>
+          </view>
+        </view>
+      </view>
+      <view style='margin-top:80rpx;color:#f9f9f9;'>
+      123
+      </view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view bindscrolltoupper="upper" scroll-y style='height:{{windowHeight}}px;width:100%;margin-top:84rpx;'>
+      <view style=''>
+        <view wx:for="{{list}}" style=''>
+          <view class='wBox'>
+            <view style=''>
+              <view style='display:flex'>
+              <view class="pt-font" style='width:80%;'>
+                4月14日 17：00 - 19：00
+              </view>
+              <view style='width:20%;text-align:right;'>
+                <span class="smBq">包场</span>
+              </view>
+              </view>
+                <view style='position:relative;margin-bottom:30rpx;'>
+                    <image class='b-img' src="/img/point.png"></image>
+                    <span class="b-font">深圳市南山区南山地铁C口出门…</span> 
+                  </view>
+                            <view style='padding-top:20rpx;position:relative;'>
+                      <view style='display:flex;'>
+                        <view style='width:60%;'>
+                          <image class='t-img' src="/img/bg.png"></image>
+                      <image class='l-img' src="/img/bg.png"></image>
+                        </view>
+                        <view class='q-x'>
+                          <view>
+                            <image class='lock' src="/img/peo_lock.png"></image> 2
+                          </view>
+                          <view>
+                          <image class='peo' src="/img/peo.png"></image> 6/18
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+            </view>
+                <view class='zt'>
+            <view style='width:50%;'>
+              <view class='z-state'>状态:进行中</view>
+            </view>
+            <view class='z-price'>
+              ￥120
+            </view>
+          </view>
+          </view>
+        </view>
+      </view>
+      <view style='margin-top:80rpx;color:#f9f9f9;'>
+      123
+      </view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view bindscrolltoupper="upper" scroll-y style='height:{{windowHeight}}px;width:100%;margin-top:84rpx;'>
+      <view style=''>
+        <view wx:for="{{list}}" style=''>
+          <view class='wBox'>
+            <view style=''>
+              <view style='display:flex'>
+              <view class="pt-font" style='width:80%;'>
+                4月14日 17：00 - 19：00
+              </view>
+              <view style='width:20%;text-align:right;'>
+                <span class="smBq">包场</span>
+              </view>
+              </view>
+                <view style='position:relative;margin-bottom:30rpx;'>
+                    <image class='b-img' src="/img/point.png"></image>
+                    <span class="b-font">深圳市南山区南山地铁C口出门…</span> 
+                  </view>
+                            <view style='padding-top:20rpx;position:relative;'>
+                      <view style='display:flex;'>
+                        <view style='width:60%;'>
+                          <image class='t-img' src="/img/bg.png"></image>
+                      <image class='l-img' src="/img/bg.png"></image>
+                        </view>
+                        <view class='q-x'>
+                          <view>
+                            <image class='lock' src="/img/peo_lock.png"></image> 2
+                          </view>
+                          <view>
+                          <image class='peo' src="/img/peo.png"></image> 6/18
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+            </view>
+                <view class='zt'>
+            <view style='width:50%;'>
+              <view class='z-state'>状态:进行中</view>
+            </view>
+            <view class='z-price'>
+              ￥120
+            </view>
+          </view>
+          </view>
+        </view>
+      </view>
+      <view style='margin-top:80rpx;color:#f9f9f9;'>
+      123
+      </view>
+    </scroll-view>
+  </swiper-item>
+    <swiper-item>
+    <scroll-view bindscrolltoupper="upper" scroll-y style='height:{{windowHeight}}px;width:100%;margin-top:84rpx;'>
+      <view style=''>
+        <view wx:for="{{list}}" style=''>
+          <view class='wBox'>
+            <view style=''>
+              <view style='display:flex'>
+              <view class="pt-font" style='width:80%;'>
+                4月14日 17：00 - 19：00
+              </view>
+              <view style='width:20%;text-align:right;'>
+                <span class="smBq">包场</span>
+              </view>
+              </view>
+                <view style='position:relative;margin-bottom:30rpx;'>
+                    <image class='b-img' src="/img/point.png"></image>
+                    <span class="b-font">深圳市南山区南山地铁C口出门…</span> 
+                  </view>
+                            <view style='padding-top:20rpx;position:relative;'>
+                      <view style='display:flex;'>
+                        <view style='width:60%;'>
+                          <image class='t-img' src="/img/bg.png"></image>
+                      <image class='l-img' src="/img/bg.png"></image>
+                        </view>
+                        <view class='q-x'>
+                          <view>
+                            <image class='lock' src="/img/peo_lock.png"></image> 2
+                          </view>
+                          <view>
+                          <image class='peo' src="/img/peo.png"></image> 6/18
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+            </view>
+                <view class='zt'>
+            <view style='width:50%;'>
+              <view class='z-state'>状态:进行中</view>
+            </view>
+            <view class='z-price'>
+              ￥120
+            </view>
+          </view>
+          </view>
+        </view>
+      </view>
+      <view style='margin-top:80rpx;color:#f9f9f9;'>
+      123
+      </view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view bindscrolltoupper="upper" scroll-y style='height:{{windowHeight}}px;width:100%;margin-top:84rpx;'>
+      <view style=''>
+        <view wx:for="{{list}}" style=''>
+          <view class='wBox'>
+            <view style=''>
+              <view style='display:flex'>
+              <view class="pt-font" style='width:80%;'>
+                4月14日 17：00 - 19：00
+              </view>
+              <view style='width:20%;text-align:right;'>
+                <span class="smBq">包场</span>
+              </view>
+              </view>
+                <view style='position:relative;margin-bottom:30rpx;'>
+                    <image class='b-img' src="/img/point.png"></image>
+                    <span class="b-font">深圳市南山区南山地铁C口出门…</span> 
+                  </view>
+                            <view style='padding-top:20rpx;position:relative;'>
+                      <view style='display:flex;'>
+                        <view style='width:60%;'>
+                          <image class='t-img' src="/img/bg.png"></image>
+                      <image class='l-img' src="/img/bg.png"></image>
+                        </view>
+                        <view class='q-x'>
+                          <view>
+                            <image class='lock' src="/img/peo_lock.png"></image> 2
+                          </view>
+                          <view>
+                          <image class='peo' src="/img/peo.png"></image> 6/18
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+            </view>
+                <view class='zt'>
+            <view style='width:50%;'>
+              <view class='z-state'>状态:进行中</view>
+            </view>
+            <view class='z-price'>
+              ￥120
+            </view>
+          </view>
+          </view>
+        </view>
+      </view>
+      <view style='margin-top:80rpx;color:#f9f9f9;'>
+      123
+      </view>
+    </scroll-view>
+  </swiper-item>
+</swiper>
+
+

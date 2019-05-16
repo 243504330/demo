@@ -1,0 +1,126 @@
+<view>
+  <image mode="widthFix" style='width:100%;' src="/img/bg.png"></image>
+</view>
+<view style='position:relative;'>
+  <view style='position:absolute;margin-top:-100rpx;padding-left:40rpx;'>
+    <image bindtap='login' style='width:130rpx;height:130rpx;border-radius:100rpx;border:3px solid rgba(255,255,255,0.50);' src="/img/emp_peo.png"></image>
+  </view>
+  <view style='position:absolute;margin-top:-80rpx;padding-left:210rpx;color:#ffffff;'>
+    <span style="font-size:36rpx;">用脚打球</span>
+    <image style='width:30rpx;height:30rpx;padding-left:20rpx;' src="/img/boy.png"></image>
+  </view>
+</view>
+<view style='margin-top:80rpx;margin-left:30rpx;margin-right:30rpx;'>
+  <view style='background:#ffffff;border-radius:16rpx;box-shadow:0 5px 10px 0 rgba(0,0,0,0.10);padding-top:50rpx;padding-bottom:50rpx;'>
+    <view class='pt-box'>
+      <view class='w-33'>
+        <view>
+          <image class='pt-img' src="/img/shengao.png"></image>
+        </view>
+        <view class='pt-font'>
+          182cm
+        </view>
+      </view>
+      <view class='w-33'>
+        <view>
+          <image class='pt-img' src="/img/age.png"></image>
+        </view>
+        <view class='pt-font'>
+          21岁
+        </view>
+      </view>
+      <view class='w-33'>
+        <view>
+          <image class='pt-img' src="/img/tizhong.png"></image>
+        </view>
+        <view class='pt-font'>
+          75kg
+        </view>
+      </view>
+    </view>
+    <view class='pt-box' style='padding-top:45rpx;'>
+      <view class='w-33'>
+        <view>
+          <image class='pt-img' src="/img/zhouqi.png"></image>
+        </view>
+        <view class='pt-font'>
+          经常打球
+        </view>
+      </view>
+      <view class='w-33'>
+        <view>
+          <image class='pt-img' src="/img/weizhi.png"></image>
+        </view>
+        <view class='pt-font'>
+          得分后卫
+        </view>
+      </view>
+      <view class='w-33'>
+        <view>
+          <image class='pt-img' src="/img/level.png"></image>
+        </view>
+        <view class='pt-font'>
+          初出茅庐
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view>
+  <view bindtap='goGroup' style='background:#ffffff;border-radius:16rpx;box-shadow:0 5px 10px 0 rgba(0,0,0,0.10);padding:40rpx  30rpx;margin-top:30rpx;margin-left:30rpx;margin-right:30rpx;'>
+    <view style='display:flex;'>
+      <view style='width:50%;position:relative;'>
+        <image style='width:36rpx;height:42rpx;position:absolute;top:0;bottom:0;margin:auto;' src="/img/order.png"></image>
+        <view style='font-size:36rpx;color:#393945;font-weight:600;padding-left:60rpx;'>我的订单</view>
+      </view>
+      <view style='width:50%;position:relative;'>
+          <view style='color:#656F8E;font-size:13px;text-align:right;padding-right:15px;position:relative'>
+            <span style="vertical-align:middle;">查看全部</span>
+             <image style='width:12rpx;height:20rpx;position:absolute;right:15px;top:0;bottom:0;margin:auto;right:0;' src="/img/btn_right.png"></image>
+          </view>
+      </view>
+    </view>
+    <view style='margin-top:40rpx;border-top:1px solid #f9f9f9;padding-top:40rpx;margin-bottom:40rpx;padding-bottom:40rpx;border-bottom:1px solid #f9f9f9;'>
+      <view style='display:flex'>
+        <view class="pt-font" style='width:80%;'>
+          4月14日 17：00 - 19：00
+        </view>
+        <view style='width:20%;text-align:right;'>
+          <span style="font-size:24rpx;background:#11cc8f;color:#ffffff;border-radius:6rpx;padding-left:10rpx;padding-right:10rpx;">包场</span>
+        </view>
+      </view>
+              <view style='position:relative;margin-bottom:30rpx;'>
+            <image style='width:22rpx;height:28rpx;position:absolute;top:0;bottom:0;margin:auto;left:-4rpx;padding-top:8rpx;' src="/img/point.png"></image>
+            <span style="color:#8989A0;font-size:26rpx;padding-left:36rpx;">深圳市南山区南山地铁C口出门…</span> 
+          </view>
+                    <view style='padding-top:20rpx;position:relative;'>
+              <view style='display:flex;'>
+                <view style='width:60%;'>
+                  <image style='width:70rpx;height:70rpx;border-radius:100rpx;float:left;border:3px solid rgba(255,255,255,0.50);' src="/img/bg.png"></image>
+              <image style='width:70rpx;height:70rpx;border-radius:100rpx;float:left;margin-left:-20rpx;border:3px solid rgba(255,255,255,0.50);' src="/img/bg.png"></image>
+                </view>
+                <view style='width:40%;font-size:26rpx;color:#5b5b6e;text-align:right;'>
+                  <view>
+                    <image style='width:22rpx;height:24rpx;' src="/img/peo_lock.png"></image> 2
+                  </view>
+                  <view>
+                  <image style='width:20rpx;height:23rpx;padding-right:10rpx;' src="/img/peo.png"></image> 6/18
+                  </view>
+                </view>
+              </view>
+              
+            </view>
+    </view>
+    <view style='display:flex;'>
+      <view style='width:50%;'>
+        <view style='font-size:32rpx;font-weight:600;color:#393945;'>状态:进行中</view>
+      </view>
+      <view style='width:50%;text-align:right;font-size:28rpx;color:#ff7171;font-weight:600;'>
+        ￥120
+      </view>
+    </view>
+  </view>
+</view>
+<view style='color:#f9f9f9;margin-top:40rpx;'>
+  123
+</view>

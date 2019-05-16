@@ -1,0 +1,43 @@
+page{
+  background: #f9f9f9;
+}
+.ct{
+  vertical-align:middle;
+  color:#393945;
+  font-size:14px;
+  display:table-cell;
+  height:50px;
+}
+.line-box{
+  display:flex;border-bottom:1px solid #f6f6f6;margin-bottom:30rpx;padding-bottom:30rpx;
+}
+.line-left{
+  width:30%;color:#8989A0;
+}
+.line-right{
+  text-align:right;width:70%;color:#393945;
+}
+button{
+  background: #FF7171;
+  box-shadow: 0 6px 10px 0 rgba(255,113,113,0.30);
+  color:#ffffff;
+  border:none;
+}
+button::after {
+  border: none;
+}
+button::after {
+  border: none;
+}
+.yao{
+  background: #11CC8F;box-shadow: 0 3px 5px 0 rgba(17,204,143,0.30);
+}
+.join{
+  background: #7185FF;box-shadow: 0 3px 5px 0 rgba(113,133,255,0.30);
+}
+.other-button-hover{
+  color:#ffffff;background:#ffffff;border:none;color:#000000;
+}
+.pimg{
+  width:70rpx;height:70rpx;margin-right:20rpx;border:3px solid rgba(255,255,255,0.50);
+}

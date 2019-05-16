@@ -1,0 +1,13 @@
+<view style='text-align:center;padding-top:20%;'>
+   <image style='width:200rpx;height:200rpx;' src="/img/logo.png"></image>
+   <view style='color:#393945;font-size:36rpx;font-weight:600;padding-top:30rpx;'>
+      街头篮球
+   </view>
+   <view style='padding-top:20%;'>
+     <button  wx:if="{{type == 'wx'}}"  open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" style='width:90%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;'>微信授权</button>
+     <button  wx:if="{{type == 'phone'}}"  open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" style='width:90%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;'>微信一键登录</button>
+   </view>
+   <view style='color:#393945;font-size:26rpx;padding-top:30rpx;'>
+    登录即代表同意<span style="color:#6273a8;">《用户协议》</span>
+   </view>
+</view>

@@ -1,0 +1,172 @@
+<view style='position:fixed;width:100%;height:200px;background:linear-gradient(#262634, #ffffff);z-index:-1;margin-top:-20px;'>
+  
+</view>
+<view style='position:fixed;background:rgba(0,0,0,0.50);z-index:999;width:100%;height:100%;display:{{userInfo}};'>
+  <view style='position:absolute;width:85%;height:50%;top:0;bottom:0;left:0;right:0;margin:auto;background:#ffffff;border-radius:8rpx;'>
+    <view style='padding:40rpx;'>
+      <view>
+        <image style='width:110rpx;height:110rpx;border-radius:100rpx;border:3px solid rgba(255,255,255,0.50);position:absolute;' src="/img/emp_peo.png"></image>
+        <view style='padding-left:140rpx;'>
+          <view>
+              <span>出手就进球</span>
+              <image style="width:36rpx;height:36rpx;" src="/img/boy.png"></image>
+            </view>
+            <view style='color:#8989a0;font-size:26rpx;'>
+              活动范围：深圳 南山
+            </view>
+        </view>
+      </view>
+    </view>
+    <view style='text-align:center;color:#393945;font-size:26rpx;padding-top:40rpx;padding-bottom:40rpx;'>
+      <view style='display:flex;'>
+        <view style='width:33.33%'>
+          <view>
+            <image style='width:38rpx;height:38rpx;' src="/img/shengao.png"></image>
+            <view>182cm</view>
+          </view>
+        </view>
+        <view style='width:33.33%'>
+          <view>
+            <image style='width:38rpx;height:38rpx;' src="/img/age.png"></image>
+            <view>21岁</view>
+          </view>
+        </view>
+        <view style='width:33.33%'>
+          <view>
+            <image style='width:38rpx;height:38rpx;' src="/img/tizhong.png"></image>
+            <view>100kg</view>
+          </view>
+        </view>
+      </view>
+      <view style='display:flex;padding-top:40rpx;'>
+        <view style='width:33.33%'>
+          <view>
+            <image style='width:38rpx;height:38rpx;' src="/img/zhouqi.png"></image>
+            <view>经常打球</view>
+          </view>
+        </view>
+        <view style='width:33.33%'>
+          <view>
+            <image style='width:38rpx;height:38rpx;' src="/img/weizhi.png"></image>
+            <view>得分后卫</view>
+          </view>
+        </view>
+        <view style='width:33.33%'>
+          <view>
+            <image style='width:38rpx;height:38rpx;' src="/img/level.png"></image>
+            <view>初级小白</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view>
+        <button bindtap='close' class="close" style='width:40%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;'  hover-class="other-button-hover">关闭</button>
+    </view>
+  </view>
+</view>
+<view style='position:fixed;background:rgba(0,0,0,0.50);z-index:999;width:100%;height:100%;display:{{success}};'>
+  <view style='position:absolute;width:270rpx;height:260rpx;top:0;bottom:0;left:0;right:0;margin:auto;background:#ffffff;border-radius:8rpx;text-align:center;'>
+    <image style='width:90rpx;height:90rpx;padding-top:20%;' src="/img/success.png"></image>
+    <view style='font-size:32rpx;color:#333333;padding-top:10rpx;'>
+      加入成功
+    </view>
+  </view>
+</view>
+<view style='margin-left:10rpx;margin-right:10rpx;border-radius:16rpx;background:#ffffff;margin-top:18rpx;'>
+  <view style='padding-left:30rpx;padding-right:30rpx;padding-top:40rpx;padding-bottom:40rpx;'>
+    <image style='width:46rpx;height:40rpx;color:#393945;' src="/img/yd_time.png"></image>
+    <span style="font-size:56rpx;padding-left:20rpx;padding-right:20rpx;">
+      {{day}}
+    </span>
+    <span style="font-size:40rpx;">
+      {{time}}
+    </span>
+  </view>
+  <view style=''>
+    <view style='display:flex;padding-left:30rpx;padding-right:30rpx;position:relative;'>
+      <view style='position:absolute;width:1px;height:80%;background:#f2f2f2;left:0;right:0;margin:auto;top:4%;'></view>
+      <view style='width:50%;'>
+        <image bindtap="userInfo" class='pimg' src="{{pub_url}}{{info.images[0].photo}}"></image>
+        <image wx:if="{{info.images[1].photo}}" class='pimg' src="{{pub_url}}{{info.images[1].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+        <image wx:if="{{info.images[2].photo}}" class='pimg' src="{{pub_url}}{{info.images[2].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+      </view>
+      <view style='width:50%;text-align:right;'>
+        <image wx:if="{{info.images[3].photo}}" class='pimg' src="{{pub_url}}{{info.images[3].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+        <image wx:if="{{info.images[4].photo}}" class='pimg' src="{{pub_url}}{{info.images[4].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+        <image wx:if="{{info.images[5].photo}}" class='pimg' src="{{pub_url}}{{info.images[5].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+      </view>
+    </view>
+    <view style='display:flex;padding-left:30rpx;padding-right:30rpx;position:relative;'>
+      <view style='position:absolute;width:1px;height:80%;background:#f2f2f2;left:0;right:0;margin:auto;top:4%;'></view>
+      <view style='width:50%;'>
+        <image wx:if="{{info.images[6].photo}}" class='pimg' src="{{pub_url}}{{info.images[6].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+        <image wx:if="{{info.images[7].photo}}" class='pimg' src="{{pub_url}}{{info.images[7].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+        <image wx:if="{{info.images[8].photo}}" class='pimg' src="{{pub_url}}{{info.images[8].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+      </view>
+      <view style='width:50%;text-align:right;'>
+        <image wx:if="{{info.images[9].photo}}" class='pimg' src="{{pub_url}}{{info.images[9].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+        <image wx:if="{{info.images[10].photo}}" class='pimg' src="{{pub_url}}{{info.images[10].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+        <image wx:if="{{info.images[11].photo}}" class='pimg' src="{{pub_url}}{{info.images[11].photo}}"></image>
+        <image wx:else class='pimg' src="/img/emp_peo.png"></image>
+      </view>
+    </view>
+  </view>
+
+
+  <view style='margin-left:30rpx;margin-right:30rpx;font-size:28rpx;margin-top:60rpx;'>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          场地
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.stadiumPlace}}
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          地址
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style=''>
+          {{info.address}}
+        </view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='line-left'>
+        <view style=''>
+          费用
+        </view>
+      </view>
+      <view class='line-right'>
+        <view style='color:#ff7171;'>
+          {{info.priceDes}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view style='display:flex;margin-bottom:40rpx;'>
+  <view style='width:50%;'>
+    <button bindtap="setDisabled" class="yao" style='width:75%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;' hover-class="other-button-hover">邀请好友组队</button>
+  </view>
+  <view style='width:50%;'>
+    <button bindtap="joinTeam" class="join" style='width:75%;border-radius:100rpx;font-size:32rpx;margin-top:20rpx;'  hover-class="other-button-hover">加入队伍</button>
+  </view>
+</view>
